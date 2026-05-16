@@ -1,0 +1,5 @@
+/* 
+ * This directory holds static image assets.
+ * Add service provider photos, category icons, etc. here.
+ * Import them in components via: import logo from "../../assets/images/logo.png"
+ */

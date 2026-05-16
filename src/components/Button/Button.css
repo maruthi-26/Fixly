@@ -1,0 +1,184 @@
+/* ============================================
+   Button.css — Reusable Button Styles
+   ============================================ */
+
+/* Base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 26px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+  background: var(--primary);
+  color: white;
+  box-shadow: var(--shadow-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(79,70,229,0.35);
+}
+
+.btn:active { transform: translateY(0); }
+
+.btn:disabled {
+  background: var(--surface-2) !important;
+  color: var(--text-4) !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+  transform: none !important;
+  border-color: var(--border) !important;
+}
+
+/* Primary large — hero CTA */
+.btn-primary-lg {
+  padding: 14px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: white;
+  box-shadow: 0 6px 24px rgba(79,70,229,0.34);
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.btn-primary-lg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(79,70,229,0.42);
+  filter: brightness(1.06);
+}
+
+.btn-primary-lg:active { transform: translateY(0); }
+
+.btn-primary-lg:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Outline large */
+.btn-outline-lg {
+  padding: 13px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  background: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  transition: all var(--transition);
+  white-space: nowrap;
+  box-shadow: none;
+}
+
+.btn-outline-lg:hover {
+  background: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Book now button */
+.btn-book {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 22px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font-body);
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition);
+  box-shadow: 0 3px 12px rgba(79,70,229,0.28);
+  white-space: nowrap;
+}
+
+.btn-book:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(79,70,229,0.38);
+}
+
+/* Login full-width */
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: all var(--transition);
+  box-shadow: 0 4px 16px rgba(79,70,229,0.3);
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(79,70,229,0.38);
+  filter: brightness(1.05);
+}
+
+.btn-login:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Book full — service details */
+.btn-book-full {
+  width: 100%;
+  padding: 15px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: all var(--transition);
+  box-shadow: var(--shadow-primary);
+}
+
+.btn-book-full:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(79,70,229,0.38);
+  filter: brightness(1.05);
+}
+
+.btn-book-full:disabled {
+  background: var(--surface-2) !important;
+  color: var(--text-4) !important;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+  filter: none;
+}

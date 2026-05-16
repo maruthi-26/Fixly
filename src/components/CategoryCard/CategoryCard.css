@@ -1,0 +1,58 @@
+/* ============================================
+   CategoryCard.css — Clean Category Cards
+   ============================================ */
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 12px;
+  background: linear-gradient(135deg, var(--surface) 0%, var(--primary-light) 100%);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(79,70,229,0.13);
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+}
+
+.category-icon {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 30% 30%, var(--primary), var(--accent));
+  border-radius: var(--radius-md);
+  transition: transform var(--transition), box-shadow var(--transition);
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.2);
+}
+
+.category-card:hover .category-icon {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(124, 58, 237, 0.4);
+}
+
+.category-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-align: center;
+  font-family: var(--font-body);
+  transition: color var(--transition);
+}
+
+.category-card:hover .category-name {
+  color: var(--primary);
+}
