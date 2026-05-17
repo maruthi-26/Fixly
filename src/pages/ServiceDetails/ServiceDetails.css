@@ -110,20 +110,22 @@
 
 .detail-provider-name {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   font-family: var(--font-heading);
   font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 800;
   color: var(--text-1);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   margin-bottom: 8px;
 }
 
 .detail-provider-role {
   position: relative;
-  z-index: 1;
-  color: var(--text-3);
+  z-index: 2;
+  color: var(--text-2);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 /* ── Stats Row ── */
