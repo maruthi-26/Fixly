@@ -36,7 +36,7 @@ const servicesList = [
     tags: ["Wiring", "Switchboard", "Lighting"],
     successRate: 97,
     backgroundImage: "https://images.unsplash.com/photo-1574697365382-c4b0aad996b8?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=1&u=rahul",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=rahul&gender=male",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const servicesList = [
     tags: ["Pipe Repair", "Installation", "Water Heaters"],
     successRate: 98,
     backgroundImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=2&u=michael",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael&gender=male",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const servicesList = [
     tags: ["Math", "Science", "Test Prep"],
     successRate: 99,
     backgroundImage: "https://images.unsplash.com/photo-1427504494785-cdacf02fab4b?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=5&u=sarah",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah&gender=female",
   },
   {
     id: 4,
@@ -90,7 +90,7 @@ const servicesList = [
     tags: ["Servicing", "Diagnostics", "Battery"],
     successRate: 94,
     backgroundImage: "https://images.unsplash.com/photo-1487700492927-ba52a2d26405?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=3&u=david",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=david&gender=male",
   },
   {
     id: 5,
@@ -108,7 +108,7 @@ const servicesList = [
     tags: ["Deep Clean", "Move-in", "Eco-Friendly"],
     successRate: 96,
     backgroundImage: "https://images.unsplash.com/photo-1584622181563-430f63602d4b?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=6&u=sarah-j",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah-j&gender=female",
   },
   {
     id: 6,
@@ -126,7 +126,7 @@ const servicesList = [
     tags: ["Installation", "Gas Refill", "Maintenance"],
     successRate: 95,
     backgroundImage: "https://images.unsplash.com/photo-1584622181563-430f63602d4b?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=4&u=anil",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=anil&gender=male",
   },
   {
     id: 7,
@@ -144,7 +144,7 @@ const servicesList = [
     tags: ["Lawn Care", "Pruning", "Plant Setup"],
     successRate: 92,
     backgroundImage: "https://images.unsplash.com/photo-1591857291786-8ec5a6904df0?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=7&u=priya",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=priya&gender=female",
   },
   {
     id: 8,
@@ -162,7 +162,7 @@ const servicesList = [
     tags: ["Elderly Care", "Nursing", "Post-Surgery"],
     successRate: 99,
     backgroundImage: "https://images.unsplash.com/photo-1631217314831-c02b2e9de66e?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=8&u=emma",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=emma&gender=female",
   },
   {
     id: 9,
@@ -180,7 +180,7 @@ const servicesList = [
     tags: ["Interior", "Wallpaper", "Texture"],
     successRate: 93,
     backgroundImage: "https://images.unsplash.com/photo-1581092916550-e323be2ae537?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=9&u=arjun",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=arjun&gender=male",
   },
   {
     id: 10,
@@ -198,7 +198,7 @@ const servicesList = [
     tags: ["Personal Training", "Weight Loss", "Mobility"],
     successRate: 96,
     backgroundImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=10&u=neha",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=neha&gender=female",
   },
   {
     id: 11,
@@ -216,7 +216,7 @@ const servicesList = [
     tags: ["Home Automation", "Smart Lighting", "EV Charging"],
     successRate: 96,
     backgroundImage: "https://images.unsplash.com/photo-1574697365382-c4b0aad996b8?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=11&u=vikram",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=vikram&gender=male",
   },
   {
     id: 12,
@@ -234,7 +234,7 @@ const servicesList = [
     tags: ["Carpentry", "Drywall", "Maintenance"],
     successRate: 97,
     backgroundImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=12&u=ravi",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=ravi&gender=male",
   },
   {
     id: 13,
@@ -252,7 +252,7 @@ const servicesList = [
     tags: ["STEM", "Exam Prep", "Competitive"],
     successRate: 98,
     backgroundImage: "https://images.unsplash.com/photo-1427504494785-cdacf02fab4b?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=13&u=anjali",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=anjali&gender=female",
   },
   {
     id: 14,
@@ -270,7 +270,7 @@ const servicesList = [
     tags: ["2-Wheeler", "Transmission", "Engine"],
     successRate: 95,
     backgroundImage: "https://images.unsplash.com/photo-1487700492927-ba52a2d26405?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=14&u=karthik",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=karthik&gender=male",
   },
   {
     id: 15,
@@ -288,7 +288,7 @@ const servicesList = [
     tags: ["Carpet Clean", "Disinfection", "Upholstery"],
     successRate: 97,
     backgroundImage: "https://images.unsplash.com/photo-1584622181563-430f63602d4b?w=600&h=400&fit=crop",
-    profileImage: "https://i.pravatar.cc/150?img=15&u=divya",
+    profileImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=divya&gender=female",
   },
 ];
 
